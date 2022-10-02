@@ -4,7 +4,7 @@ This repository contains implementations of the paper Audio-Text Retrieval in Co
 
 ## Dataset
 
-We use two datasets in this paper: [AudioCaps](https://aclanthology.org/N19-1011.pdf) and [CLOTHO] (https://arxiv.org/pdf/1910.09387.pdf)
+We use two datasets in this paper: [AudioCaps](https://aclanthology.org/N19-1011.pdf) and [CLOTHO](https://arxiv.org/pdf/1910.09387.pdf)
 
 ## Audio Feature Extraction
 
@@ -32,24 +32,24 @@ After extracting the audio features (preferred hdf5 file Format), the feature ca
     │       ├── w2v_test.pkl
     │       ├── w2v_train.pkl
     │       └── w2v_val.pkl
-    ├── CLOTHO
-    │   ├── AudioExpert
-    │   │   ├── panns_cnn14
-    │   │   │   ├── test
-    │   │   │   │   └── panns_cnn14.h5
-    │   │   │   ├── train
-    │   │   │   │   └── panns_cnn14.h5
-    │   │   │   └── val
-    │   │   │       └── panns_cnn14.h5
-    │   │   └── ...
-    │   ├── Index
-    │   │   ├── test.json
-    │   │   ├── train.json
-    │   │   ├── val.json
-    │   └── TextEmbeddings
-    │       ├── w2v_test.pkl
-    │       ├── w2v_train.pkl
-    │       └── w2v_val.pkl
+    └── CLOTHO
+        ├── AudioExpert
+        │   ├── panns_cnn14
+        │   │   ├── test
+        │   │   │   └── panns_cnn14.h5
+        │   │   ├── train
+        │   │   │   └── panns_cnn14.h5
+        │   │   └── val
+        │   │       └── panns_cnn14.h5
+        │   └── ...
+        ├── Index
+        │   ├── test.json
+        │   ├── train.json
+        │   ├── val.json
+        └── TextEmbeddings
+            ├── w2v_test.pkl
+            ├── w2v_train.pkl
+            └── w2v_val.pkl
 ```
 
 ## Pooling Strategy
