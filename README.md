@@ -10,7 +10,7 @@ We use two datasets in this paper: [AudioCaps](https://aclanthology.org/N19-1011
 
 Six different feature extractor have been used in this study: log-mel spectrogram([librosa](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html)), [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish), [VGGSound](https://github.com/hche11/VGGSound), [PANNs_CNN10](https://github.com/qiuqiangkong/audioset_tagging_cnn), [PANNs_CNN14](https://github.com/qiuqiangkong/audioset_tagging_cnn), [Efficient_Latent](https://github.com/RicherMans/HEAR2021_EfficientLatent).  
 
-After extracting the audio features (preferred hdf5 file Format), the feature can be arrange following below structure under ./data. 
+After extracting the audio features (preferred hdf5 file Format), the feature can be arrange following below structure under `./data`. 
 ```
 .
 └── data
@@ -54,7 +54,7 @@ After extracting the audio features (preferred hdf5 file Format), the feature ca
 
 ## Pooling Strategy
 
-In this work, five pooling strategies were adopted: Mean Pooling, Max Pooling, LSTM, NetVLAD and NetRVLAD. For using different pooling strategies, can refer to different config files under ./configs/AudioCaps/ or ./cofigs/CLOTHO/
+In this work, five pooling strategies were adopted: Mean Pooling, Max Pooling, LSTM, NetVLAD and NetRVLAD. For using different pooling strategies, can refer to different config files under `./configs/AudioCaps/` or `./cofigs/CLOTHO/`
 
 ## Reproduction
 ### AudioCaps
